@@ -1,0 +1,30 @@
+  .button-head-nav {
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #FFFF00;
+    font-weight: 600;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+  }
+ .button-head-nav:hover {
+    background-color: #FFFF00;
+    color: #000;
+    box-shadow: 0 0 5px #FFFF00,
+                0 0 20px rgb(255 255 0 / 0.8),
+                0 0 35px rgb(255 255 0 / 0.7),
+                0 0 50px rgb(255 255 0 / 0.6);
+    border-color: #fff;
+}

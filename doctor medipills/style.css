@@ -1,0 +1,118 @@
+
+body{
+    background-color: rgb(235, 241, 241);
+    background-image: url(images/stethoscope.png);
+    background-repeat: no-repeat;
+    font-family: "IBM Plex Sans", sans-serif;
+    
+}
+nav ul li {
+    outline: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    display: inline;
+    float: right;
+    position: relative;
+    right: 124px;
+    margin: 20px;
+    font-weight: 900;
+}
+
+nav ul li:hover{
+    color: #3ea502;
+        
+}
+nav ul li a{
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #3ea502;
+}
+.logo img{
+    position: relative;
+    left: 125px;
+    top: 24px;
+    width: 140px;
+    height: 47px;
+}
+.topangleimg{
+    position: relative;
+    top: 176px;
+    left: 130px;
+}
+.health{
+    font-weight: 800;
+    font-size: 45px;
+    position: relative;
+    top: 150px;
+    left: 130px;
+}
+.note{
+    color: gray;
+    position: relative;
+    top: 134px;
+    left: 130px;
+}
+.bottomAngle{
+    position: relative;
+    top: 116px;
+    left: 620px;
+}
+.mouse{
+    position: relative;
+    top: 75px;
+    left: 660px;
+}
+.notebutton{
+    outline: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    top: 100px;
+    left: 130px;
+    background-color: #20bc7e;;
+    color: rgb(255, 255, 255);
+    height: 44px;
+    width: 180px;
+    border-radius: 26px;
+    border: 2px solid #20bc7e;;;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 900;
+}
+.notebutton:hover{
+    
+        background-color: #3ea502;
+        color: #000;
+        box-shadow: 0 0 5px #3a8000,
+                    0 0 20px rgba(0, 98, 0, 0.8),
+                    0 0 35px rgba(27, 118, 0, 0.7),
+                    0 0 50px rgba(0, 87, 1, 0.6);
+        border-color: #21b354;
+    
+}
+.greenBox{
+    width: 375px;
+    height: 350px;
+    position: relative;
+    bottom: 240px;
+    left: 1024px;
+}
+.yellowBox{
+    width: 375px;
+    height: 350px;
+    position: relative;
+    bottom: 530px;
+    left: 1078px;
+}
+.doctorSaab{
+    width: 470px;
+    height: 640px;
+    position: relative;
+    bottom: 1144px;
+    left: 940px;
+}
